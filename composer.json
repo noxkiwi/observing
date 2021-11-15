@@ -1,0 +1,30 @@
+{
+  "name": "noxkiwi/observing",
+  "description": "I am the basic collection for all Observers and the Observable interface.",
+  "version": "1.0.0",
+  "type": "package",
+  "license": "proprietary",
+  "keywords": [
+    "Observing",
+    "Observable",
+    "Observer"
+  ],
+  "homepage": "https://nox.kiwi/",
+  "time": "2020-07-01",
+  "authors": [
+    {
+      "name": "Jan Nox",
+      "email": "jan.nox@pm.me",
+      "homepage": "https://nox.kiwi",
+      "role": "Lead Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "noxkiwi\\observing\\": "backend/class/"
+    }
+  }
+}
