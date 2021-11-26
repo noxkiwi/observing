@@ -3,7 +3,7 @@
   "description": "I am the basic collection for all Observers and the Observable interface.",
   "version": "1.0.0",
   "type": "package",
-  "license": "proprietary",
+  "license": "GPL-3.0-or-later",
   "keywords": [
     "Observing",
     "Observable",
