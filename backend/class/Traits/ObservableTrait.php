@@ -3,6 +3,7 @@ namespace noxkiwi\observing\Traits;
 
 use noxkiwi\observing\Observable\ObservableInterface;
 use noxkiwi\observing\Observer;
+use function array_diff;
 
 /**
  * I am the trait that implements the basic Observable methods.
