@@ -1,7 +1,6 @@
 <?php declare(strict_types = 1);
 namespace noxkiwi\observing\Example;
 
-use Exception;
 use noxkiwi\core\Exception\InvalidArgumentException;
 use noxkiwi\observing\Traits\ObservableTrait;
 use const E_ERROR;

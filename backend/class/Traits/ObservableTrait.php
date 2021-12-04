@@ -48,12 +48,11 @@ trait ObservableTrait
     final public function notify(string $type = null): void
     {
         $type ??= '';
+        // If the trait is used, interface is covered.
         if (! $this instanceof ObservableInterface) {
             return;
         }
         foreach ($this->observers as $observer) {
-            // If the trait is used, interface is implemented.
-            /** @noinspection PhpParamsInspection */
             $observer->update($this, $type);
         }
     }
