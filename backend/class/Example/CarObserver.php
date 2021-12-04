@@ -1,7 +1,6 @@
 <?php declare(strict_types = 1);
 namespace noxkiwi\observing\Example;
 
-use noxkiwi\core\Exception;
 use noxkiwi\observing\Exception\VelocityException;
 use noxkiwi\observing\Observable\ObservableInterface;
 use noxkiwi\observing\Observer;
